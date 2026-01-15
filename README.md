@@ -1,6 +1,6 @@
 # IdentifyingEfficientSubmodelFidelityCombinations
 
-This Algorithm corresponds to Algorithm 1 in the paper 
+This repo corresponds to the code needed to run Algorithm 1 in 
 Rincon, R., &amp; Padgett, J.E. (2026) "Identifying submodel fidelity combinations that yield efficient multiscale models for infrastructure performance estimation".
 
 It is a Python code for identifying ‘efficient submodel fidelity combinations’ in multiscale models. 
