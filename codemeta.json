@@ -1,0 +1,53 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "type": "SoftwareSourceCode",
+    "applicationCategory": "Multiscale modeling with varying submodel fidelity",
+    "author": [
+        {
+            "id": "https://orcid.org/0000-0002-8340-4718",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Department of Civil and Environmental Engineering, Rice University, Houston, TX, USA"
+            },
+            "email": "raul.rincon@rice.edu",
+            "familyName": "Rincon",
+            "givenName": "Raul"
+        },
+        {
+            "id": "https://orcid.org/0000-0002-7484-2871",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Department of Civil and Environmental Engineering, Rice University, Houston, TX, USA"
+            },
+            "email": "jamie.padgett@rice.edu",
+            "familyName": "Padgett",
+            "givenName": "Jamie Ellen"
+        }
+    ],
+    "codeRepository": "https://github.com/rinconraul/IdentifyingEfficientSubmodelFidelityCombinations/tree/main",
+    "dateCreated": "2025-12-14",
+    "dateModified": "2026-01-15",
+    "datePublished": "2026-01-15",
+    "description": "The code determines whether a combination of lower-fidelity submodels yields a more efficient Monte Carlo (MC) estimate than using the Most Accurate But Expensive (MABE) model. Rather than leveraging multifidelity MC methods, our approach identifies whether submodels can be completely replaced by reduced-fidelity models without affecting the quality of outcomes.",
+    "funder": {
+        "type": "Organization",
+        "name": "U.S. National Science Foundation"
+    },
+    "keywords": [
+        "multiscale models",
+        "uncertainty propagation",
+        "model efficiency",
+        "fragility",
+        "network reliability",
+        "infrastructure resilience",
+        "bias"
+    ],
+    "license": "https://spdx.org/licenses/BSD-3-Clause",
+    "name": "IdentifyingEfficientSubmodelFidelityCombinations",
+    "operatingSystem": "Windows",
+    "programmingLanguage": "Python 3",
+    "version": "1.0.0",
+    "funding": "Award Number CMMI-2227467"
+}
